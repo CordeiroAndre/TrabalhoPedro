@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+}
+
+div.main-grid-panel{
+    padding: 0 10% ;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 15% 55% 25%;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3%;
+}
+
+div.bottom-grid-panel{
+    display: flex;
+    height: 100%;
+    align-items: baseline;
+    justify-content: center;
+}
+
+div.middle{
+    height: 100%;
+    width: 100%;
+}
+
+div.empty-message{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
